@@ -78,13 +78,13 @@ if USE_NUMPY:
     tests_require.extend(['numpy', 'pandas'])
 
 setup(
-    name='ft-clickhouse-driver',
+    name='clickhouse-driver',
     version=read_version(),
 
     description='Python driver with native interface for ClickHouse',
     long_description=long_description,
 
-    url='https://github.com/fasttrack-solutions/clickhouse-driver',
+    url='https://github.com/mymarilyn/clickhouse-driver',
 
     author='Konstantin Lebedev',
     author_email='kostyan.lebedev@gmail.com',
